@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9F1AE8782704E84300DDF115 /* TimelineFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F1AE86E2704E84300DDF115 /* TimelineFeed.framework */; };
 		9F1AE87D2704E84300DDF115 /* TimelineFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1AE87C2704E84300DDF115 /* TimelineFeedTests.swift */; };
+		9F1AE88B2704EA0000DDF115 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1AE88A2704EA0000DDF115 /* FeedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 		9F1AE8772704E84300DDF115 /* TimelineFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimelineFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1AE87C2704E84300DDF115 /* TimelineFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineFeedTests.swift; sourceTree = "<group>"; };
 		9F1AE87E2704E84300DDF115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F1AE88A2704EA0000DDF115 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				9F1AE8722704E84300DDF115 /* Info.plist */,
+				9F1AE88A2704EA0000DDF115 /* FeedItem.swift */,
 			);
 			path = TimelineFeed;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1AE88B2704EA0000DDF115 /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +394,7 @@
 		9F1AE8862704E84300DDF115 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = HVDYJ7V77X;
@@ -408,6 +413,7 @@
 		9F1AE8872704E84300DDF115 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = HVDYJ7V77X;
